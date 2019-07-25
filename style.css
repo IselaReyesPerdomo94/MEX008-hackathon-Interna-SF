@@ -210,7 +210,6 @@ figure {
     transform: scale(1.1);
 }
 
-
 #root,
 #root-bud,
 #root-savings {
@@ -228,7 +227,6 @@ figure {
     margin-top: 1%;
     margin-bottom: 2%;
 }
-
 
 
 /* sidenav */
@@ -360,6 +358,10 @@ figure {
     /* width: 60%; */
     display: flex;
     justify-content: space-between;
+}
+
+.hide {
+    display: none;
 }
 
 .money span,
