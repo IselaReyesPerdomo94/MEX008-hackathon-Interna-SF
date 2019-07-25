@@ -26,7 +26,7 @@ Llevar una gestión saludable de las finanzas nos ayuda a:
 
 Además, te permite llevar relaciones sanas con tu pareja o familia. (Wong, 2010).  
 
-La salud financiera fomenta una sociedad más informada, consciente y próspera, opinan los expertos en finanzas.
+La salud financiera fomenta una sociedad más informada, consciente y próspera, permitiendo la creación de un círculo virtuoso en el que mejoran las oportunidades para los beneficiados directos e indirectos de los recursos financieros.
 
 ## Objetivo
 
@@ -79,6 +79,15 @@ La paleta de colores se seleccionó pensando en el atractivo visual de la app-we
 
 ## Heurísticas de usabilidad
 
+Las heurísticas de usabilidad son una serie de principios utilizados para evaluar la usabilidad de interfaces sin usuario. Al proceso de inspeccionar la interfaz se le conoce como evaluación heurística, de donde surgen diferentes métodos de inspección de usabilidad. 
+
+Esta metodología debe llevarse a cabo en la fase inicial del proyecto, durante la maquetación o prototipado inicial y posteriormente, durante  el desarrollo, para localizar y corregir errores a bajo costo.
+
+Del análisis de heurísticas de usabilidad concluimos lo siguiente:
+
+Nuestra interfaz cumplea con la mayoría de las heurísticas de usabilidad.
+
+
 ## Modelo de negocio
 
 Para que la app-web sea un modelo de negocio viable se implementará publicidad en la versión gratuita, con ello, los anunciantes serían la fuente primaria de ingresos para el negocio. 
@@ -109,6 +118,16 @@ Este proyecto se realizó con HTML, JavaScript y CSS.
 
 Solo necesitas un navegador y dar click en el siguiente link: https://iselareyesperdomo94.github.io/MEX008-hackathon-Interna-SF/
 
+## Colaboradoras
+
+- [María Mercedes Dávila Vázquez](https://github.com/MercedesDavila) 
+- [Leda Michelle Huerta Recinas](https://github.com/LedaHuerta)
+- [Isela Reyes Perdomo](https://github.com/IselaReyesPerdomo94) 
+- [Judith Suárez López](https://github.com/JudSL)
+
+Fue un trabajo colaborativo en donde se tomó en cuenta las  habilidades y fortalezas que cada una tiene para el desarrollo de épicas, partiendo de ahí organizamos el proyecto de tal manera que todas colaboráramos en la toma de decisiones de los elementos a desarrollar. 
+
+Asimismo, organizamos tiempos de trabajo remoto y presencial para que todas pudiéramos involucrarnos en el proyecto.
 
 ## Bibliografía
 
