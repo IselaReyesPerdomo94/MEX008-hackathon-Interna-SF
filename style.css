@@ -326,6 +326,14 @@ figure {
     margin-bottom: 3%;
 }
 
+#root-login {
+    font-size: medium;
+    font-weight: 700;
+    color: #D81E5B;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
 
 /* sidenav */
 
