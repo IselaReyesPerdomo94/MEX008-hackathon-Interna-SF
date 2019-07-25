@@ -12,6 +12,8 @@ const enterHome = document.getElementById('enter');
 const registerButton = document.getElementById('register-button');
 const budgetA = document.getElementById('budget-a');
 const homeA = document.getElementById('home-a');
+const savingsA = document.getElementById('savings-a');
+const logOutA = document.getElementById('log-out');
 const nameLogin = document.getElementById('name-login');
 const submitInfoNewUser = document.getElementById('accept');
 const submitInfoBudget = document.getElementById('accept-budget');
@@ -77,7 +79,9 @@ const goingBudget = () => {
     hideSection('register');
     hideSection('HomePage');
     hideSection('login');
+    hideSection('savings');
     showSection('budget');
+
 }
 
 const goingSavings = () => {
@@ -88,14 +92,21 @@ const goingSavings = () => {
     showSection('savings');
 }
 
+const goingLogin = () => {
+    hideSection('budget');
+    hideSection('register');
+    hideSection('HomePage');
+    hideSection('savings');
+    showSection('login');
+}
 
 //events
 enterHome.addEventListener('click', goingHome);
-
+logOutA.addEventListener('click', goingLogin);
 registerButton.addEventListener('click', goingRegister);
 budgetA.addEventListener('click', goingBudget);
 homeA.addEventListener('click', goingHome);
-
+savingsA.addEventListener('click', goingSavings);
 
 // functions to save data user//
 //Save RegisterData
