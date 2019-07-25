@@ -125,8 +125,9 @@ Solo necesitas un navegador y dar click en el siguiente link: https://iselareyes
 - [Isela Reyes Perdomo](https://github.com/IselaReyesPerdomo94) 
 - [Judith Suárez López](https://github.com/JudSL)
 
-Fue un trabajo colaborativo en donde se tomó en cuenta las  habilidades y fortalezas que cada una tiene para el desarrollo de épicas. 
-Identificamos que 
+Fue un trabajo colaborativo en donde se tomó en cuenta las  habilidades y fortalezas que cada una tiene para el desarrollo de épicas, partiendo de ahí organizamos el proyecto de tal manera que todas colaboráramos en la toma de decisiones de los elementos a desarrollar. 
+
+Asimismo, organizamos tiempos de trabajo remoto y presencial para que todas pudiéramos involucrarnos en el proyecto.
 
 ## Bibliografía
 
