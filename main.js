@@ -198,5 +198,13 @@ let getinfoLogin = () => {
 
 }
 
+// let getInfoBudget = () => {
+
+//     totalSavings = localStorage.getItemById('Monto1');
+//     document.getItemById('total-savings').innerHTML = totalSavings;
+
+
+// }
+
 //events to get data user
 enterHome.addEventListener('click', getinfoLogin);
