@@ -90,7 +90,6 @@ const goingSavings = () => {
 
 
 //events
-enterHome.addEventListener('click', goingHome);
 
 registerButton.addEventListener('click', goingRegister);
 budgetA.addEventListener('click', goingBudget);
@@ -108,10 +107,10 @@ let saveInfoNewUser = () => {
 
     if (passRegister === pass2Register) {
         //saving data in localstorage
-        localStorage.setItem('usuario', nameRegister);
-        localStorage.setItem('mail', mailRegister);
-        localStorage.setItem('contraseña', passRegister);
-        localStorage.setItem('verificar-contraseña', pass2Register);
+        localStorage.setItem('Usuario', nameRegister);
+        localStorage.setItem('Mail', mailRegister);
+        localStorage.setItem('Contraseña', passRegister);
+        localStorage.setItem('Verificar-contraseña', pass2Register);
         //clearinputs
         document.getElementById('name').value = '';
         document.getElementById('e-mail').value = '';
@@ -179,3 +178,19 @@ submitInfoSavings.addEventListener('click', saveSavingsInfo)
 
 // Functions to get data user//
 //Get LoginData
+let getinfoLogin = () => {
+    mailRegister = document.getElementById('e-mail').value;
+    passRegister = document.getElementById('pass').value;
+    if (mailRegister == localStorage.getItem('Mail'), passRegister == localStorage.getItem('Contraseña')) {
+        localStorage.getItem('Mail');
+        localStorage.getItem('Contraseña');
+        console.log('coincide');
+    } else {
+        console.log('nocoincide')
+    }
+
+
+}
+
+//events to get data user
+enterHome.addEventListener('click', getinfoLogin);
